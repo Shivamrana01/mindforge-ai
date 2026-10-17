@@ -5,7 +5,7 @@ const chat = document.getElementById("chat");
 const sendButton = document.getElementById("send");
 
 // Replace this with your deployed Cloudflare Worker URL later.
-const WORKER_URL = "PASTE_YOUR_CLOUDFLARE_WORKER_URL_HERE";
+const WORKER_URL = "https://mindforge-ai.shivamrana40912.workers.dev";
 
 function addMessage(text, role) {
   const message = document.createElement("div");
