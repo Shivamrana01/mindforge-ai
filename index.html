@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindForge AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div class="logo">M</div>
+      <div>
+        <h1>MindForge AI</h1>
+        <p>Your ideas, forged into reality.</p>
+      </div>
+      <span class="status">● Ready</span>
+    </header>
+
+    <section class="welcome">
+      <div class="orb">✦</div>
+      <h2>Think beyond limits.</h2>
+      <p>Ask a question. Explore an idea. Build something amazing.</p>
+    </section>
+
+    <section id="chat" class="chat" aria-live="polite">
+      <div class="message ai">
+        Hello! I'm MindForge. What would you like to explore today?
+      </div>
+    </section>
+
+    <form id="chat-form">
+      <textarea id="prompt" placeholder="Ask MindForge anything..."
+        rows="1" required></textarea>
+      <button id="send" type="submit" aria-label="Send message">➤</button>
+    </form>
+    <p class="note">AI can make mistakes. Verify important information.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
